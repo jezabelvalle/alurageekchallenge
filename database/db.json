@@ -1,0 +1,41 @@
+{
+  "products": [
+    {
+      "name": "capitan",
+      "price": "350",
+      "image": "assets/capitan.jpg",
+      "id": "1"
+    },
+    {
+      "name": "capitana",
+      "price": "300",
+      "image": "assets/capitana.jpg",
+      "id": "2"
+    },
+    {
+      "name": "hulk",
+      "price": "350",
+      "image": "assets/hulk.jpg",
+      "id": "3"
+    },
+    {
+      "name": "ironman",
+      "price": "310",
+      "image": "assets/ironman.jpg",
+      "id": "4"
+    },
+    {
+      "name": "thor",
+      "price": "310",
+      "image": "assets/thor.jpg",
+      "id": "5"
+    },
+    {
+      "name": "avengers",
+      "price": "370",
+      "image": "assets/avengers.jpg",
+      "id": "6",
+    }
+
+  ]
+}

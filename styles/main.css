@@ -1,0 +1,305 @@
+*,
+*::before,
+*::after {
+  background-color:  #0f487c;
+  overflow-x: hidden;
+    
+}
+
+/* Seccion Header */
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0f487c;
+  font-weight: bold;
+  border: solid 2px;
+  border-radius: 5px;
+  padding-top: 5px;
+  height: 150px;
+}
+
+.container_encabezado{
+  display: flex;
+  justify-content: center;
+}
+
+.titulo_encabezado{
+padding-top: 1.5rem;
+color: #f6f6f6;
+font-size: 45px;
+font-family: Tahoma, sans-serif;
+}
+
+.logo_encabezado {
+  width: 15%;
+  height: auto;
+  margin-right: 1.5rem;
+}
+
+/*Main-Container */
+.main-container{
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+    padding-left: 10px;
+}
+
+/* Productos */
+.productos{
+  max-width: 95%;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.products-container{
+  background-color: #0f487c;
+  overflow: scroll;
+  display: flex;
+  flex-wrap: wrap;
+  height: 50vh;
+  gap: 15px;
+  padding: 15px 50px;
+
+}
+
+.card{
+  border: solid 4px;
+  border-radius: 15px;
+  color: #423232;
+  margin-bottom: 15px;
+  background-color:#0f487c;
+  margin-left: 3rem;
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+  padding: 2rem 2rem;
+  font-size: 28px;
+  font-weight: 700;
+  
+}
+
+.card-container--info{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 2rem;
+}
+
+.img-container{
+  padding-bottom: 0.5rem;
+  width: 250px;
+  height: auto;
+  padding: 10px 30px;
+  cursor: pointer;
+
+}
+
+.delete-button{
+  width: 20px;
+  height: 20px;
+}
+
+i{
+  width: 5px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+i:hover{
+  cursor: pointer;
+}
+
+.agregar-productos{
+  width: 40%;
+  height: 50vh;
+
+}
+
+.form-container{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 2rem 2rem;
+  gap: 1rem;
+}
+
+input{
+  padding: 1rem;
+  width: 80%;
+  border-radius: 20px;
+  border: solid 2px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.button-container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.button-clear{
+  border: solid 2px #0f487c;
+  border-radius: 15px;
+  font-size: 18px;
+  width: 90px;
+  height: auto;
+  background-color: #f6f6f6;
+  cursor: pointer;
+
+}
+
+.button-submit{
+  border: solid 2px #f6f6f6;
+  border-radius: 15px;
+  font-size: 18px;
+  width: 90px;
+  height: 40px;
+  background-color:  rgb(0,162,232);
+  color: #f6f6f6;
+  cursor: pointer;
+
+}
+
+/* Seccion Footer*/
+.footer{
+  background: #0f487c;
+  border: solid 2px;
+  border-radius: 5px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.menu-footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.logo-titulo{
+display: flex;
+align-content: center;
+align-items: center;
+gap: 5px;
+margin-left: 20rem;
+}
+
+.footer-author{
+  color: #c90b0b;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.menu-titulo-footer{
+  color: #f6f6f6;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.footer-logo{
+  width: 12%;
+  height: auto;
+}
+
+/* Sección moviles */
+@media (max-width: 425px) {
+
+.header {
+  padding-top: 5px;
+  height: 150px;
+  width: 110%;
+}
+
+.logo_encabezado {
+width: 50px;
+height: auto;
+}
+
+.titulo_encabezado{
+  font-size: 30px;
+}
+
+.products-container{
+  gap: 15px;
+}
+
+.card-container--info{
+  gap: 5px;
+  font-size: 17px;
+  font-weight: 400;
+  margin:0  20px;
+}
+
+.img-container{
+  width: 50px;
+  height: auto;
+  padding: 3px 10px;
+}
+
+.footer{
+  width: 115%;
+}
+
+.footer-logo{
+  width: 40px;
+  height: auto;
+}
+
+.footer-container{
+    padding-right: 260px;
+    padding-left: 10px;
+}
+}
+
+
+
+/* Seccion tablet */
+@media (max-width: 768px) {
+.main-container{
+  flex-direction: column-reverse;
+  width: 95%;
+  padding-right: 2rem;
+}
+
+.img-container{
+  width: 180px;
+  height: auto;
+}
+
+.products-container{
+margin-right: 4rem;
+}
+
+.card{
+  margin: 0 0;
+  padding: 0 0 ;
+}
+
+.header, .footer{
+  border: none;
+}
+
+.agregar-productos{
+  width: 100%;
+  margin-bottom: 4rem;
+  margin-right: auto;
+  margin-left: 3rem;
+}
+
+.productos{
+  width: 100%;
+  margin:0  2rem;
+}
+
+}

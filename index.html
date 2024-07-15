@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Ecommerce Alura Geek</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+    
+</head>
+<body>
+    <header class="header">
+        <div class="container_encabezado">
+             <h1 class="titulo_encabezado">Tienda Alura Geek</h1>
+             <img src="/assets/store.jpg" alt="carrito">
+        </div>
+           
+        </div>
+    </header>
+    <main class="main-container">
+       <section class="productos">
+          <h1>Productos:</h1>
+          <div data-product class="products-container">
+
+            <div>
+                <img src="/assets/capitan.jpg" alt="capitan">
+            </div>
+            
+          </div>
+       </section>
+
+       <section class="agregar-productos">
+          <h1>Agregar Producto:</h1>
+            <form class="form-container" data-form>
+                <input data-name placeholder="Nombre" type="text">
+                <input data-price placeholder="Precio" type="text">
+                <input  data-image placeholder="Imagen" type="text">
+
+                <div class="button-container">
+                    <button type="submit" class="button-submit" id="button">Enviar</button>
+                    <button type="reset" class="button-clear" id="button">Limpiar</button>
+                </div>
+            </form>
+       </section>
+    </main>
+    <footer class="footer">
+        <div class="menu-footer">
+            <div class="footer-container">
+                <div class="titulo">
+                   <h1 class="menu-titulo-footer"> Tienda Alura Geek</h1> 
+                </div>
+            </div>
+            <div class="footer-author">
+                <p>Design by Jezabel Valle  2024</p>
+            </div>
+        </div>
+    </footer>
+    <script type="module" src="js/controllers/main.js"></script>
+</body>
+</html>
